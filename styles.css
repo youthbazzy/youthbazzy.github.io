@@ -63,6 +63,11 @@ li > a:link  {
     background-color: #857568;
 }
 
+#email:hover    {
+    background-color: #DAD5D1;
+    padding: 10px;
+}
+
 .info   {
     color:#DAD5D1;
 }
@@ -82,4 +87,10 @@ li > a:link  {
 #email:link    {
     color: white;
     text-decoration: none;
+}
+
+.columns {
+    display: flex;
+    justify-items: center;
+    border: 2px dotted white;
 }
