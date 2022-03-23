@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    background-color: aliceblue;
+}
+
+*   {
+    border: 0px dotted blue;
+}
+
+.navbar {
+}
+
+#nav-primary-menu   {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 0px;
+    background-color: #523A28;
+    list-style-type: none;
+}
+
+header  {
+    justify-content: center;
+    text-align: center;
+}
+
+ul  {
+    text-align: center;
+    list-style-type: none;
+    padding: 20px;
+}
+
+#about  {
+    text-align: center;
+}
+
+.footer     {
+    text-align: center;
+    justify-content: center;
+}
+
+.down-below {
+    text-align: center;
+    background-color: #857568;
+    padding: 20px;
+    border: 2px dotted black;
+}
+
+.nav-item   {
+    color: white;
+    border: 2px dotted white;
+    padding: 10px;
+}
+
+a:link  {
+    color: white;
+    text-decoration: none;
+}
