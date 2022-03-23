@@ -6,14 +6,11 @@ html, body {
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    background-color: aliceblue;
+    background-color: #DAD5D1;
 }
 
 *   {
     border: 0px dotted blue;
-}
-
-.navbar {
 }
 
 #nav-primary-menu   {
@@ -54,11 +51,14 @@ ul  {
 
 .nav-item   {
     color: white;
-    border: 2px dotted white;
-    padding: 10px;
+    padding: 10px 25px;
 }
 
-a:link  {
+li > a:link  {
     color: white;
     text-decoration: none;
+}
+
+.nav-item:hover    {
+    background-color: #857568;
 }
