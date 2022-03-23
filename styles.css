@@ -62,3 +62,24 @@ li > a:link  {
 .nav-item:hover    {
     background-color: #857568;
 }
+
+.info   {
+    color:#DAD5D1;
+}
+
+.links > li {
+    display: block;
+    border: 2px dotted white;
+    padding: 20px;
+}
+
+.links  {
+    border: 2px dotted red;
+    display: flex;
+    justify-content: center;
+}
+
+#email:link    {
+    color: white;
+    text-decoration: none;
+}
