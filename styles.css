@@ -92,5 +92,13 @@ li > a:link  {
 .columns {
     display: flex;
     justify-items: center;
-    border: 2px dotted white;
+    border: 4px dotted white;
+}
+
+.box {
+    border:2px dotted white;
+    min-width:200px;
+    justify-items: center;
+    flex: 1; /* additionally, equal width */
+    padding: 1em;
 }
